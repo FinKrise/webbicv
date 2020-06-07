@@ -12,19 +12,19 @@
       <!-- Slide One - Set the background image for this slide in the line below -->
       <div class="carousel-item active" style="background-image: url('./img/kuva1.jpg')">
         <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-1 text-white bg-primary">First Slide</h3>
+          <h2 class="display-4 text-white bg-primary">First Slide</h2>
         </div>
       </div>
       <!-- Slide Two - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url('./img/kuva2.jpg')">
         <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-1 text-white bg-primary">Second Slide</h3>
+          <h2 class="display-4 text-white bg-primary">Second Slide</h2>
         </div>
       </div>
       <!-- Slide Three - Set the background image for this slide in the line below -->
       <div class="carousel-item text-white" style="background-image: url('./img/kuva3.jpg')">
         <div class="carousel-caption d-none d-md-block">
-          <h3 class="display-1 text-white bg-primary">Third Slide</h3>
+          <h2 class="display-4 text-white bg-primary">Third Slide</h2>
         </div>
       </div>
     </div>

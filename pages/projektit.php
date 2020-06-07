@@ -1,4 +1,4 @@
-<div class="card-body" id="projektit">
+<div class="card-body border border-top-0 border-left-0 border-right-0" id="projektit">
 <h1 class="display-4">Projektit</h1>
 
 <ul class="nav nav-tabs">
@@ -29,12 +29,12 @@
 		  Valmiskäyttöinen CV lähetetään webbihotelliin, josta käyttäjä pystyy nettiosoitteen avulla tarkastelemaan CV:n sisältöä.
 		  </p>
           <a class="btn btn-primary btn-block btn-sm" href="#yhteystiedot">Lataa CV tiedostomuodossa</a>
-		  <a class="btn btn-primary btn-block btn-sm" href="#">Projektin GitHub-repositorio</a>
+		  <a class="btn btn-primary btn-block btn-sm" href="https://github.com/FinKrise/webbicv">Projektin GitHub-repositorio</a>
         </div>
         <div class="col-md-8">
 		<br>
           <a>
-            <img class="img-fluid rounded" src="http://placehold.it/700x300" alt="">
+            <img class="img-fluid rounded" src="./img/branch.jpg" alt="">
           </a>
         </div>
       </div>
@@ -51,12 +51,12 @@
 		  Projektin ideana oli toteuttaa webbipohjainen turnausjärjestelmä ilmoittautujille sekä ylläpitäjille.
 		  Projekti toteutettiin neljän henkilön ryhmässä, jossa itse toteutin nettisivun ulkoasun, joukkueiden lisäyksen ja hallinnan sekä rekisteriselosteen.
 		  </p>
-        <a class="btn btn-primary btn-block btn-sm" href="#">Projektin GitLab-repositorio</a>
+        <a class="btn btn-primary btn-block btn-sm" href="https://gitlab.com/nevalainenhannu/kale-projekti">Projektin GitLab-repositorio</a>
 		</div>
         <div class="col-md-8">
 		<br>
           <a>
-            <img class="img-fluid rounded" src="http://placehold.it/700x300" alt="">
+            <img class="img-fluid rounded" src="./img/lomake.jpg" alt="">
           </a>
         </div>
       </div>
@@ -73,12 +73,12 @@
 		  Tämän pelin toimintaperiaatteen idea perustuu space invaders arcade peliin.
 		  Pelin toimivuus on yksinkertainen sekä kaikki olennaiset ominaisuudet löytyvät pelin sisällä.
 		  </p>
-          <a class="btn btn-primary btn-block btn-sm" href="#">Lataa peli</a>
+          <a class="btn btn-primary btn-block btn-sm" href="./doc/webbipeli.zip">Lataa peli</a>
         </div>
         <div class="col-md-8">
 		<br>
           <a>
-            <img class="img-fluid rounded" src="http://placehold.it/700x300" alt="">
+            <img class="img-fluid rounded" src="./img/game.jpg" alt="">
           </a>
         </div>
       </div>
@@ -101,7 +101,7 @@
         <div class="col-md-8">
 		<br>
           <a>
-            <img class="img-fluid rounded" src="http://placehold.it/700x300" alt="">
+            <img class="img-fluid rounded" src="./img/pukki.jpg" alt="">
           </a>
         </div>
       </div>
@@ -109,4 +109,3 @@
   </div>
 </div>
 </div>
-<hr>

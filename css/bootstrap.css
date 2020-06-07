@@ -54,7 +54,16 @@
 #profiili, #projektit, #media {
 	padding-top:10rem;
 }
-#profileform {
+#profiili{
+	background-image:url('../img/ktwm2.svg');
+	background-repeat: no-repeat;
+	background-size: 1200px;
+	background-position: top left;
+}
+@media (max-width: 768px) {
+	#profiili {
+	background-image: none;
+	}
 }
 .input-group {
 	position: static;

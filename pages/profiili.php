@@ -1,4 +1,4 @@
-<div class="card-body" id="profiili">
+<div class="card-body border border-top-0 border-left-0 border-right-0" id="profiili">
 <h1 class="display-4">Profiili</h1>
 
 <form id="profileform">
@@ -9,7 +9,7 @@
 		<div class="input-group-prepend">
 		<span class="input-group-text">Nimi</span>
 		</div>
-		<input type="text" class="form-control border border-primary" placeholder="Kristian K.T" disabled>
+		<input type="text" class="form-control border border-primary" placeholder="Kristian K.Törmä" disabled>
 	</div>
 	<div class="input-group mb-3 input-group-mb">
 		<div class="input-group-prepend">
@@ -50,4 +50,3 @@ Minulla on myös perustason tietämystä tietokoneiden komponenteista ja niiden 
 </form>
 
 </div>
-<hr>
