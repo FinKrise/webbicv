@@ -71,7 +71,12 @@
           <p>
 		  Kyseinen Unity peli on yksi monesta ammattikoulun kurssikohtaisesta palautuksesta.
 		  Tämän pelin toimintaperiaatteen idea perustuu space invaders arcade peliin.
-		  Pelin toimivuus on yksinkertainen sekä kaikki olennaiset ominaisuudet löytyvät pelin sisällä.
+		  
+		 Controllit:
+		 W = ylös
+		 S = alas
+		 C = ammu
+		 alt + f4 = poistu pelistä
 		  </p>
           <a class="btn btn-primary btn-block btn-sm" href="./doc/webbipeli.zip">Lataa peli</a>
         </div>
