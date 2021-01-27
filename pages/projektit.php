@@ -28,8 +28,8 @@
 		  Ylhäällä sijaitseva navigaatiopalkki seuraa käyttäjän sijaintia nettisivulla ja sekä toimii nettisivun sivuluettelona.
 		  Valmiskäyttöinen CV lähetetään webbihotelliin, josta käyttäjä pystyy nettiosoitteen avulla tarkastelemaan CV:n sisältöä.
 		  </p>
-          <a class="btn btn-primary btn-block btn-sm" href="#yhteystiedot">Lataa CV tiedostomuodossa</a>
-		  <a class="btn btn-primary btn-block btn-sm" href="https://github.com/FinKrise/webbicv">Projektin GitHub-repositorio</a>
+          	<a class="btn btn-primary btn-block btn-sm" href="#yhteystiedot">Lataa CV tiedostomuodossa</a>
+		<a class="btn btn-primary btn-block btn-sm" href="https://github.com/FinKrise/webbicv">Projektin GitHub-repositorio</a>
         </div>
         <div class="col-md-8">
 		<br>
@@ -49,9 +49,11 @@
           <p>
 		  Kyseinen projekti toteutettiin ammattikoulun TOP-jaksossa.
 		  Projektin ideana oli toteuttaa webbipohjainen turnausjärjestelmä ilmoittautujille sekä ylläpitäjille.
-		  Projekti toteutettiin neljän henkilön ryhmässä, jossa itse toteutin nettisivun ulkoasun, joukkueiden lisäyksen ja hallinnan sekä rekisteriselosteen.
+		  Projekti toteutettiin neljän henkilön ryhmässä.
+		  Oma työosuuteni kyseisessä projektissa oli frontend painotteista (mm. nettisivun ulkoasu, navigointi, hallintapaneeli).
 		  </p>
-        <a class="btn btn-primary btn-block btn-sm" href="https://gitlab.com/nevalainenhannu/kale-projekti">Projektin GitLab-repositorio</a>
+			<a class="btn btn-primary btn-block btn-sm" href="https://gitlab.com/nevalainenhannu/kale-projekti">Projektin GitLab-repositorio</a>
+			<a class="btn btn-primary btn-block btn-sm" href="http://truudeli6.net/kale/index.php?action=index">Ohjelmistotestauksen webbihotellisivu</a>
 		</div>
         <div class="col-md-8">
 		<br>
@@ -106,7 +108,9 @@
 		  Asiakas tilaa joulupukin jouluaatoksi täyttämällä nettisivulomakkeen, jonka jälkeen
 		  järjestelmähaltija käsittelee varauksen sijoittamalla varauspukin kyseiselle käynnille.
 		  Varauspukille tulostetaan järjestelmähaltijan suunnittelema varauslista.
+		  Oma osuuteni projektista oli tietokannan suunnittelu sekä tietokantayhteydet.
 		  </p>
+			<a class="btn btn-primary btn-block btn-sm" href="http://truudeli14.net/varauspukki/">Ohjelmistotestauksen webbihotellisivu</a>
         </div>
         <div class="col-md-8">
 		<br>
