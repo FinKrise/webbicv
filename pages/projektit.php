@@ -73,6 +73,9 @@
           <p>
 		  Kyseinen Unity peli on yksi monesta ammattikoulun kurssikohtaisesta palautuksesta.
 		  Tämän pelin toimintaperiaatteen idea perustuu space invaders arcade peliin.
+		  Pelin huomattavimmat ominaisuudet ovat mm. pisteenlasku, vihollisten lisääminen ja tuhoaminen, background loop sekä laser projektiilit
+		  
+		  Ammattikoulun isoimmat unity projektit pohjautuivat unityn omiin tutoriaaleihin, jonka takia en referoi niistä tekijänoikeuksia kunnioittaen.
 		<br>
 		<br>
 		 Controllit:
