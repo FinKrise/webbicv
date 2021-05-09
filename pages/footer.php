@@ -10,6 +10,7 @@
 	krisse.torma@gmail.com
 	<br>
 	+358 404774957
+	Github päivitys 2
 	</p>
   </div>
 </div>
