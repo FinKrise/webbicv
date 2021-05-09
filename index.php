@@ -46,7 +46,7 @@ require "pages/media.php";
     </div>
   </div>
 </div>
-  
+
 <!-- Yhteystiedot -->
 <?php
 require "pages/footer.php";
