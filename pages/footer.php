@@ -29,14 +29,16 @@
     <hr>
 !-->
     <p class="card-text">
-	Github päivitys 2
+	Kristian.torma@kolumbus.fi
 	</p>
   </div>
+
+  <p class="lead">
+    <a class="btn btn-dark btn-lg btn-outline-light" role="button" href="doc/ktcv.docx">Lataa CV tiedostomuodossa</a>
+  </p>
+
 </div>
 <br>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" role="button" href="doc/ktcv.docx">Lataa CV tiedostomuodossa</a>
-  </p>
 
     </div>
 
