@@ -8,7 +8,7 @@
 	<div class="card text-white bg-dark mx-auto" style="max-width: 30rem;">
   <h1 class="card-header">Ota yhteyttä</h1>
   <div class="card-body">
-
+<!--
     <form method="post" name="myemailform" action="form-to-email.php">
       <fieldset>
     	<div class="form-group">
@@ -27,7 +27,7 @@
     	<input type="submit" class="btn btn-primary" name='submit' value="submit">
     </form>
     <hr>
-
+!-->
     <p class="card-text">
 	Github päivitys 2
 	</p>
