@@ -13,9 +13,11 @@
           <li class="nav-item">
             <a class="nav-link" href="#projektit">Projektit</a>
           </li>
+		  <!--
           <li class="nav-item">
             <a class="nav-link" href="#media">Media</a>
           </li>
+		  -->
 		  <li class="nav-item">
             <a class="nav-link" href="#yhteystiedot">Yhteydenotto</a>
           </li>

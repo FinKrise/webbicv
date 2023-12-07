@@ -40,13 +40,13 @@ require "pages/projektit.php";
 
 <!-- Mediasisalto -->
 <?php
-require "pages/media.php";
+//require "pages/media.php";
 ?>
 
     </div>
   </div>
 </div>
-
+  
 <!-- Yhteystiedot -->
 <?php
 require "pages/footer.php";

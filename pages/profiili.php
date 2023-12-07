@@ -7,15 +7,9 @@
   <div class="col-sm-6">
 	<div class="input-group mb-3 input-group-mb">
 		<div class="input-group-prepend">
-		<span class="input-group-text">Nimi</span>
+		<span class="input-group-text">Nimi ja ikä</span>
 		</div>
-		<input type="text" class="form-control border border-primary" placeholder="Kristian K.Törmä" disabled>
-	</div>
-	<div class="input-group mb-3 input-group-mb">
-		<div class="input-group-prepend">
-		<span class="input-group-text">Syntymävuosi</span>
-		</div>
-		<input type="text" class="form-control border border-primary" placeholder="4.7.2001" disabled>
+		<input type="text" class="form-control border border-primary" placeholder="Kristian Törmä, 22" disabled>
 	</div>
 	<div class="input-group mb-3 input-group-mb">
 		<div class="input-group-prepend">
@@ -25,9 +19,15 @@
 	</div>
 		<div class="input-group mb-3 input-group-mb">
 		<div class="input-group-prepend">
-		<span class="input-group-text">Koulutus</span>
+		<span class="input-group-text">Suoritettu koulutus</span>
 		</div>
-		<input type="text" class="form-control border border-primary" placeholder="Datanomi, Ylioppilas" disabled>
+		<input type="text" class="form-control border border-primary" placeholder="Datanomi, Ylioppilas (Tredu)" disabled>
+	</div>
+		<div class="input-group mb-3 input-group-mb">
+		<div class="input-group-prepend">
+		<span class="input-group-text">Tämänhetkinen koulutus</span>
+		</div>
+		<input type="text" class="form-control border border-primary" placeholder="Tieto -ja viestintätekniikan linja, TAMK" disabled>
 	</div>
 	
   </div>
@@ -36,13 +36,13 @@
   <div class="form-group">
   <span class="input-group-text">Kuvaus</span>
   <textarea class="form-control border border-primary" rows="8" id="comment" style="resize:none" disabled>
-Olen Tampereella asuva nuori opiskelija. Koulutustaustaa minulla on peruskoulun jälkeinen kaksoistutkinto Tredun ammattikoulussa, jossa suoritin ohjelmistotuotannon ammattikoulutuken ohella ylioppilastutkinnon. Minua kiinnostaa eniten front-end koodaamisen ohella graaffinen suunnittelu sekä esports. Vapaa-aika kuluu useimmiten pelaamisen, piirtämisen tai projektikohtaisen koodaamisen ohella. Työkokemusta löytyy pääosin ammattikoulun TOP-jaksoista sekä satunnaisista kesätöistä.
+Olen Tampereella asuva korkeakouluopiskelija. Koulutustaustaa minulla on peruskoulun jälkeinen kaksoistutkinto Tredun ammattikoulussa. Opiskelen nykyään Tampereen ammattikorkeakoulussa pelituotantoa Tieto -ja viestintätekniikan linjalla.
 
-Projektitehtävissä tarvittavia taitoja minulta löytyy useita. Pystyn rakentamaan projektikohtaista dokumentaatiota sekä suunnitella tarvittavia tietokantoja tai taulukoita. Luovassa tekemisessä pystyn tekemään sekä graaffista logosuunnittelua (Illustrator/SVG), että kuvanmuokkaamista (Photoshop/PNG).
+Osaamiseni on monipuolista. Kykenen tekemään muun muassa verkkosivujen front-end koodia, suunnitella sekä testata peliprojekteille kehitettyjä scriptejä, luoda yksinkertaista vector arttia sekä toteuttaa yksinkertaista projektin dokumenttaatiota ja ylläpitoa.
 
-Parhaiten hallussa olevat koodikielet minulla ovat ohjelmoinnissa Javascript sekä php. Nettisivun ulkoasua ssuunnitellessa Bootstrap CSS on useimmiten käytetty ratkaisu. Pystyn myös tarvittaessa tekemään SQL tietokantakyselyitä. Unity pelien ohella minulla on myös kokemusta C# ja java ohjelmointikielistä.
+Minun web dev taidot omaksuin ammattikoulu ajoilta, jolloin käytimme ohjelmointikieleinä pääosin PHP, Bootstrap CSS, SQL sekä minimaalinen määrä javascriptiä. Pelipuolelta olen pääosin tehnyt C# koodia, mutta kiinnostusta löytyy myös C++ opetteluun jotta saisi myös Unreal enginen kunnolla haltuun
 
-Minulla on myös perustason tietämystä tietokoneiden komponenteista ja niiden käyttötarkoituksista. Minulla on kokemusta Tietokoneiden purkamisesta ja kasaamisesta, sekä pystyn vaihtamaan yksittäisiä komponentteja valmiskäyttöisissäkin tietokoneissa. Minulla on myös pintatason kokemusta käyttöjärjestelmän asentamisesta puhtaalla koneella (Windows/Linux).
+Harrastuksistani olen myös omaksunut taidon purkaa ja asentaa tietokoneiden komponentteja. Olen kanassut pari konetta itselleni, mutta työkokemusta en ole vielä ehtinyt kerääämään aiheesta
   </textarea>
 </div>
   </div>
