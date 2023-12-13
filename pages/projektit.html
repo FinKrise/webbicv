@@ -1,118 +1,168 @@
+<style>
+	ol:hover, .carousel-control-prev:hover, .carousel-control-next:hover {
+	  background-color: rgba(20, 20, 20, 0.20);
+	}
+</style>
+
 <h1 class="display-4">Projektit</h1>
-
 <ul class="nav nav-tabs">
-  <li class="nav-item">
-    <a class="nav-link active" data-toggle="tab" href="#webcv">Webbi CV</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#kale">Peliprojektit</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#peli">WWW-projektit</a>
-  </li>
+  	<li class="nav-item">
+    	<a class="nav-link active" data-toggle="tab" href="#cv">Webbi CV</a>
+  	</li>
+ 	<li class="nav-item">
+   	 	<a class="nav-link" data-toggle="tab" href="#peli">WWW-projektit</a>
+  	</li>
+	<li class="nav-item">
+    	<a class="nav-link" data-toggle="tab" href="#web">Peliprojektit</a>
+ 	</li>
 </ul>
-<div id="myTabContent" class="tab-content">
-  <div class="tab-pane fade show active" id="webcv">
-    
-      <!-- WebbiCV -->
-      <div class="row">
-	  <div class="col-md-4">
-	  <br>
-          <p>
-		  Projektin aiheena on CV pohjan suunnittelu ja toteutus webbimuodossa.
-		  CV:n sisältö on jaettu sivuihin, jotka ovat selattavissa pääsivulla pinnalta pohjalle.
-		  Ylhäällä sijaitseva navigaatiopalkki seuraa käyttäjän sijaintia nettisivulla ja sekä toimii nettisivun sivuluettelona.
-		  Valmiskäyttöinen CV lähetetään webbihotelliin, josta käyttäjä pystyy nettiosoitteen avulla tarkastelemaan CV:n sisältöä.
-		  </p>
-          <a class="btn btn-primary btn-block btn-sm" href="#yhteystiedot">Lataa CV tiedostomuodossa</a>
-		  <a class="btn btn-primary btn-block btn-sm" href="https://github.com/FinKrise/webbicv">Projektin GitHub-repositorio</a>
-        </div>
-        <div class="col-md-8">
-		<br>
-          <a>
-            <img class="img-fluid rounded" src="./img/branch.jpg" alt="">
-          </a>
-        </div>
-      </div>
-	  
-	
-  </div>
-  <div class="tab-pane fade" id="kale">
 
-        <!-- Peliprojektit -->
-      <div class="row">
-	          <div class="col-md-4">
-			  <br>
-			<h3>Manteater</h3>
-          <p>
- “Mänteater” is a game by “Team 404” of Tampere University of Applied Sciences Games Academy Autumn 2022 season. Based on the classic arcade game Rampage (1986), the player takes control of the titular “Mänteater”, a giant man-eating anteater, and works to tear through the industrial area of a polluted city. 
-		  </p>
-        <a class="btn btn-primary btn-block btn-sm" href="http://www.gamesacademy.fi/uncategorized/ga-autumn-2022-manteater/">Games academy blog post</a>
+<div id="myTabContent" class="tab-content">
+
+	<!-- WebbiCV -->
+  	<div class="tab-pane fade show active" id="cv">
+		<div class="row">
+			<div class="col-md-4">
+				<br>
+				<p>
+					Projektin aiheena on CV pohjan suunnittelu ja toteutus webbimuodossa.
+					CV:n sisältö on jaettu sivuihin, jotka ovat selattavissa pääsivulla pinnalta pohjalle.
+					Ylhäällä sijaitseva navigaatiopalkki seuraa käyttäjän sijaintia nettisivulla ja sekä toimii nettisivun sivuluettelona.
+					Valmiskäyttöinen CV lähetetään webbihotelliin, josta käyttäjä pystyy nettiosoitteen avulla tarkastelemaan CV:n sisältöä.
+				</p>
+			<a class="btn btn-primary btn-block btn-sm" href="#yhteystiedot">Lataa CV tiedostomuodossa
+			</a>
+			<a class="btn btn-primary btn-block btn-sm" href="https://github.com/FinKrise/webbicv">Projektin GitHub-repositorio</a>
+			</div>
+			<div class="col-md-8">
+				<br>
+				<a>
+				<img class="img-fluid rounded" src="./img/branch.jpg" alt="">
+				</a>
+			</div>
 		</div>
-        <div class="col-md-8">
-		<br>
-          <a>
-            <img class="img-fluid rounded" src="./img/manteater.png" alt="">
-          </a>
-        </div>
-      </div>
-	        <div class="row">
-	          <div class="col-md-4">
-			  <br>
-			<h3>CyberScythe</h3>
-          <p>
-Based on classic PS2/Xbox era platformers, Cyber Scythe by Team 404 combines platforming and light combat, and features an unique, eyecatching aesthetic with plenty of fun details to spot.
-		  </p>
-        <a class="btn btn-primary btn-block btn-sm" href="http://www.gamesacademy.fi/uncategorized/ga-spring-2023-cyber-scythe/">Games academy blog post</a>
+	</div>
+
+	<!-- Peliprojektit -->
+	<div class="tab-pane fade" id="peli">
+      	<div class="row">
+	        <div class="col-md-4">
+				<br>
+				<h3>Manteater</h3>
+				<p>
+					“Mänteater” is a game by “Team 404” of Tampere University of Applied Sciences Games Academy Autumn 2022 season. Based on the classic arcade game Rampage (1986),
+					the player takes control of the titular “Mänteater”, a giant man-eating anteater, and works to tear through the industrial area of a polluted city. 
+				</p>
+				<a class="btn btn-primary btn-block btn-sm" href="http://www.gamesacademy.fi/uncategorized/ga-autumn-2022-manteater/">Games academy blog post</a>
+				<a class="btn btn-primary btn-block btn-sm" href="https://sirmeo.itch.io/manteater">Itch.io page</a>
+			</div>
+			<div class="col-md-8">
+				<!-- Image carousel -->
+				<div id="carousel_manteater" class="carousel slide" data-ride="carousel">
+					<br>
+					<ol class="carousel-indicators">
+						<li data-target="#carousel_manteater" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel_manteater" data-slide-to="1"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100" src="./img/projects/manteater_menu.png" alt="First slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./img/projects/manteater_game.png" alt="Second slide">
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carousel_manteater" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carousel_manteater" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
 		</div>
-        <div class="col-md-8">
-		<br>
-          <a>
-            <img class="img-fluid rounded" src="./img/cybers.png" alt="">
-          </a>
-        </div>
-      </div>
-  
-  </div>
-  <div class="tab-pane fade" id="peli">
-    
-	      <!-- Web projektit -->
-      <div class="row">
-	          <div class="col-md-4">
-			  <br>
-			  <h3>Turnauksen hallintajärjestelmä</h3>
-          <p>
-		  Kyseinen projekti toteutettiin ammattikoulun TOP-jaksossa.
-		  Projektin ideana oli toteuttaa webbipohjainen turnausjärjestelmä ilmoittautujille sekä ylläpitäjille.
-		  Projekti toteutettiin neljän henkilön ryhmässä, jossa itse toteutin nettisivun ulkoasun, joukkueiden lisäyksen ja hallinnan sekä rekisteriselosteen.
-		  </p>
-        </div>
-        <div class="col-md-8">
-		<br>
-          <a>
-            <img class="img-fluid rounded" src="./img/lomake.jpg" alt="">
-          </a>
-        </div>
-      </div>
-	        <div class="row">
-	          <div class="col-md-4">
-			  <br>
-			  <h3>Varausjärjestelmä</h3>
-          <p>
-		  Projekti on osa ammattikoulun kurssikohtaista palautusta.
-		  Kyseisen nettisivuprojektin ideana on toteuttaa varauspukkijärjestelmä.
-		  Asiakas tilaa joulupukin jouluaatoksi täyttämällä nettisivulomakkeen, jonka jälkeen
-		  järjestelmähaltija käsittelee varauksen sijoittamalla varauspukin kyseiselle käynnille.
-		  Varauspukille tulostetaan järjestelmähaltijan suunnittelema varauslista.
-		  </p>
-        </div>
-        <div class="col-md-8">
-		<br>
-          <a>
-            <img class="img-fluid rounded" src="./img/pukki.jpg" alt="">
-          </a>
-        </div>
-      </div>
-	
-  </div>
+		<div class="row">
+	        <div class="col-md-4">
+			  	<br>
+				<h3>CyberScythe</h3>
+          		<p>
+					Based on classic PS2/Xbox era platformers, Cyber Scythe by Team 404 combines platforming and light combat, and features an unique, eyecatching aesthetic with plenty of fun details to spot.
+		  		</p>
+        		<a class="btn btn-primary btn-block btn-sm" href="http://www.gamesacademy.fi/uncategorized/ga-spring-2023-cyber-scythe/">Games academy blog post</a>
+				<a class="btn btn-primary btn-block btn-sm" href="https://sirmeo.itch.io/cyberscythe">Itch.io page</a>
+			</div>
+        	<div class="col-md-8">
+				<!-- Image carousel -->
+				<div id="carousel_cyberscythe" class="carousel slide" data-ride="carousel">
+					<br>
+					<ol class="carousel-indicators">
+						<li data-target="#carousel_cyberscythe" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel_cyberscythe" data-slide-to="1"></li>
+						<li data-target="#carousel_cyberscythe" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="d-block w-100" src="./img/projects/cysc_menu.png" alt="First slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./img/projects/cysc_explore.png" alt="Second slide">
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-100" src="./img/projects/cysc_combat.png" alt="Third slide">
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carousel_cyberscythe" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carousel_cyberscythe" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+      		</div>
+		</div>
+	</div>
+
+	<!-- Web projektit -->
+  	<div class="tab-pane fade" id="web">
+      	<div class="row">
+	        <div class="col-md-4">
+			  	<br>
+			  	<h3>Turnauksen hallintajärjestelmä</h3>
+          		<p>
+		  			Kyseinen projekti toteutettiin ammattikoulun TOP-jaksossa.
+		  			Projektin ideana oli toteuttaa webbipohjainen turnausjärjestelmä ilmoittautujille sekä ylläpitäjille.
+		  			Projekti toteutettiin neljän henkilön ryhmässä, jossa itse toteutin nettisivun ulkoasun, joukkueiden lisäyksen ja hallinnan sekä rekisteriselosteen.
+		  		</p>
+        	</div>
+        	<div class="col-md-8">
+				<br>
+          		<a>
+            		<img class="img-fluid rounded" src="./img/lomake.jpg" alt="">
+          		</a>
+        	</div>
+      	</div>
+	    <div class="row">
+	        <div class="col-md-4">
+			  	<br>
+			  	<h3>Varausjärjestelmä</h3>
+          		<p>
+		  			Projekti on osa ammattikoulun kurssikohtaista palautusta.
+		  			Kyseisen nettisivuprojektin ideana on toteuttaa varauspukkijärjestelmä.
+		  			Asiakas tilaa joulupukin jouluaatoksi täyttämällä nettisivulomakkeen, jonka jälkeen
+		  			järjestelmähaltija käsittelee varauksen sijoittamalla varauspukin kyseiselle käynnille.
+		  			Varauspukille tulostetaan järjestelmähaltijan suunnittelema varauslista.
+		  		</p>
+        	</div>
+        	<div class="col-md-8">
+				<br>
+          		<a>
+            		<img class="img-fluid rounded" src="./img/pukki.jpg" alt="">
+          		</a>
+        	</div>
+      	</div>
+  	</div>
 </div>
